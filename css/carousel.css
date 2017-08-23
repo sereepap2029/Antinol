@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
@@ -14,11 +13,14 @@ body {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
+  border-bottom: solid;
+  border-width: 5px;
+  border-color: #ED1C24;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  bottom: 3rem;
+  top: 40%;
 }
 
 /* Declare heights because of positioning of img element */
@@ -52,8 +54,8 @@ body {
   position: relative;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     margin-right: 3px;
     margin-left: 3px;
     border-radius: 30px;
@@ -61,6 +63,23 @@ body {
     background-color: rgba(255,255,255,.5);
 }
 
+.carousel-caption .head-img{
+  width: 34%;
+}
+.carousel-caption .slide-p{
+  font-family: promptregular;
+  margin-top: 20px;
+  color: #626366;
+}
+.carousel-control-next-icon{
+  background-image: url("../img/slide/right_ico.png");
+}
+.carousel-control-prev-icon {
+  background-image: url("../img/slide/left_ico.png");
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+      height: 40px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -81,18 +100,29 @@ body {
 
 /* Featurettes
 ------------------------- */
-
+.featurette{
+  padding-bottom: 5rem;
+  padding-top:5rem;
+}
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
+  font-family: promptbold;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+  color: #ED1C24;
 }
-
+.featurette p.lead{
+    font-family: promptregular;
+}
+.featurette-heading .text-in{
+  font-family: promptregular;
+  color: #000;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -106,12 +136,12 @@ body {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 36px;
   }
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 0rem;
   }
 }

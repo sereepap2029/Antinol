@@ -58,6 +58,9 @@
     font-style: normal;
 
 }
+a{
+    font-family: promptregular;
+}
 .navbar {
     background-color: transparent;
     position: absolute;
@@ -65,4 +68,160 @@
     top: 0;
     right: 0;
     left: 0;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #6b6d6f;
+    font-size: 0.9rem;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+    color: #231F20;
+}
+.navbar-nav{
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #58585B;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.navbar-brand img{
+    margin-top: 15%;
+    max-width: 160px;
+}
+.navbar-expand-lg .navbar-collapse{
+    flex-wrap: wrap;
+}
+.dog-cat-ico{
+    list-style: none;
+    width: 100%;
+}
+.dog-cat-ico .nav-item-img{
+    float: right;
+    margin-right: 20px;
+}
+.dog-cat-ico .nav-item-img img{
+    max-width: 50px;
+    
+}
+.marketing.f2{
+    background-color: #E9E9E9;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: #C8C9CA;
+}
+.antinol-ul{
+    list-style-image: url('../img/liststyle.png')
+}
+.antinol-ul li{
+    padding: 15px 10px 15px 10px;
+    font-family: promptregular;
+    color: #5E5F61;
+    font-size: 1.25rem;
+
+}
+.experience {
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+.experience p{
+    font-family: promptregular;
+    text-align: left;
+}
+.experience .exp-head{
+    font-family: promptregular;
+    text-align: left;
+    padding: 6% 2% 2% 2%;
+}
+.experience-heading {
+  font-family: promptbold;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  color: #ED1C24;
+  text-align: center;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+.experience .plus-ico{
+        position: absolute;
+    width: 40px;
+    left: 0;
+    top: -30px;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.experience-heading .text-in{
+  font-family: promptregular;
+  color: #000;
+}
+.more-button{
+    align-items: center;
+    display: flex;
+    margin: 0px auto;
+}
+.footer{
+    border-top: solid;
+    border-width: 5px;
+    border-color: #ED1C24;
+    background-color: #AFB2B4;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+.footer p.normal{
+    font-family: promptregular;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    margin-top: 40px;
+
+}
+.footer p.contact{
+    font-family: promptregular;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    margin-top: 50px;
+
+}
+.footer-divider{
+    margin-top: 2rem;
+    margin-bottom: 0px;
+}
+.footer-social{
+    list-style: none;
+    margin-top: 40px;
+}
+.footer-social  li{
+    position: relative;
+    margin-top: 10px;
+}
+.footer-social  li a{
+    font-family: promptregular;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    color: #686A6C;
+}
+.footer-social img{
+        position: absolute;
+    left: -25px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media (max-width: 1024px) {
+    .navbar-dark .navbar-nav .nav-link{
+        color: #6b6d6f;
+        font-size: 0.73rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: .4rem;
+    padding-left: .4rem;
+    }
 }

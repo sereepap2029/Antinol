@@ -26,28 +26,44 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="dog-cat-ico">
+            <li class="nav-item-img">
+              <a href="#"><img src="./img/cat_ico.png"></a>
+            </li>
+            <li class="nav-item-img">
+              <a href="#"><img src="./img/dog_ico.png"></a>
+            </li>
+            
+          </ul>
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">หน้าแรก</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">เกี่ยวกับเรา</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#">ประโยชน์ของ VetzPetz</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown07">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ประสบการณ์จากผู้ใช้</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">วิธีการผลิต</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">กิจกรรมของเรา</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">คำถามที่พบบ่อย</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">หาซื้อได้ที่ไหน</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ติดต่อเรา</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-md-0">
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-          </form>
         </div>
       </div>
     </nav>
@@ -61,32 +77,35 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="./img/slide/slide1.jpg" alt="First slide">
+          <img class="first-slide" src="./img/slide/slide2.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <img class="head-img" src="./img/slide/head1.png">
+              <p class="slide-p">It is a long established fact that a reader<br>
+will be distracted by content</p>
+              <p><a class="" href="#" role="button"><img src="./img/slide/click.png"></a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide" src="./img/slide/slide1.jpg" alt="Second slide">
+          <img class="second-slide" src="./img/slide/slide2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <img class="head-img" src="./img/slide/head1.png">
+              <p class="slide-p">It is a long established fact that a reader<br>
+will be distracted by content</p>
+              <p><a class="" href="#" role="button"><img src="./img/slide/click.png"></a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="third-slide" src="./img/slide/slide1.jpg" alt="Third slide">
+          <img class="third-slide" src="./img/slide/slide2.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <img class="head-img" src="./img/slide/head1.png">
+              <p class="slide-p">It is a long established fact that a reader<br>
+will be distracted by content</p>
+              <p><a class="" href="#" role="button"><img src="./img/slide/click.png"></a></p>
             </div>
           </div>
         </div>
@@ -105,82 +124,155 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
+  <div class="container-fluid marketing">
     <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-6">
+          <h2 class="featurette-heading">About us : <span class="text-in">เกี่ยวกับเรา</span></h2>
+          <p class="lead">กระบวนการผลิตของเรา เริ่มต้นจากการเลี้ยง บ่มเพาะและเก็บเกี่ยว
+หอยแมลงภู่เปลือกสีเขียวภายใต้การดูแลและควบคุมอย่างเข้มงวด
+โดยกรมประมงประเทศนิวซีแลนด์ ซึ่งไม่มีแหล่งประมงใดในโลกที่จะมี
+มาตรฐานดีเทียบเท่านี้อีกแล้ว</p>
+<p class="lead">หอยแมลงภู่เปลือกสีเขียวอันเป็นวัตถุดิบสำคัญในการผลิตผลิตภัณฑ์
+ของ VetzPetz ได้ถูกเลี้ยงในบริเวณทางเหนือของเกาะนิวซีแลนด์ใต้ 
+ในเขตที่เรียกว่า Marlborough Sounds อันงดงาม</p>
+<p class="lead">เขต Marlborough Sounds มีสภาพแวดล้อมที่เอื้ออำนวยและเหมาะสม
+ต่อการเลี้ยงหอยแมลงภู่ชนิดนี้ เนื่องจากมีแหล่งน้ำอันบริสุทธิ์จาก
+มหาสมุทรแปซิฟิกและยังปราศจากสารพิษและสิ่งเจือปนอื่นๆ เนื่องจาก
+แหล่งประมงนี้ยังไม่มีผู้คนหรือชุมชนใด ๆ อาศัยอยู่ ไม่มีการประกอบ
+การเกษตรหรืออุตสาหกรรมใด ๆ อันเป็นสาเหตุให้เกิดสิ่งเจือปนใด ๆ 
+ทั้งสิ้น</p>
+<p class="lead">บริษัทของเรามีความห่วงใยและใส่ใจต่อสิ่งแวดล้อม และเราสัญญา
+ว่าเราจะดำเนินนโยบายทางธุรกิจที่เป็นมิตรต่อสิ่งแวดล้อม ลดปริมาณขยะ 
+ลดมลพิษและเน้นเรื่องการประหยัดพลังงานตลอดไป</p>
+        </div>
+        <div class="col-md-6">
+          <img class="featurette-image img-fluid mx-auto" src="./img/homecatdogabout.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="container-fluid marketing f2">
+    <div class="container marketing">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Benefits of Vetz Petz:<br><span class="text-in">ประโยชน์ของ VetzPetz</span></h2>
+          <img class="featurette-image img-fluid mx-auto" src="./img/antinol_index.png" alt="Generic placeholder image">
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <ul class="antinol-ul">
+            <li>VetzPetz Antinol คืออะไร</li>
+            <li>ประโยชน์ต่อสุขภาพ</li>
+            <li>ทำไมจึงต้องเลือกใช้ VetzPetz</li>
+            <li>ต้องใช้เวลานานเท่าไหร่จึงจะเริ่ม<br>ความเปลี่ยนแปลง</li>
+            <li>อะไรเป็นสิ่งที่ทำให้ Vetz Petz<br>
+มีความพิเศษเหนือกว่าผลิตภัณฑ์<br>
+อื่นๆ
+</li>
+            <li>สารอาหารจากอาหารสุนัข<br>
+ยังมีคุณค่าไม่เพียงพอ<br>
+ต่อสุนัขอีกหรือ
+</li>
+          </ul>
         </div>
       </div>
+    </div>
+  </div>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="container marketing">
+    <!-- Three columns of text below the carousel -->
+      <div class="row experience">
+        <div class="col-lg-12">
+          <h2 class="experience-heading">User experience :<br><span class="text-in">ประสบการณ์จากผู้ใช้</span></h2>
         </div>
-        <div class="col-md-5 order-md-1">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-lg-4">
+          <img class="plus-ico" src="./img/plus-ico.png">
+          <img class="border-0" src="./img/exp1.jpg" alt="Generic placeholder image" width="100%">
+          <h2 class="exp-head">วัน วัน พุดเดิ้ล อายุ 6 ปี 
+และ คุณลอรี่</h2>
+          <p>เมื่อเดือนมกราคม ปีที่แล้ว วัน วัน สุนัขพุดเดิ้ลของ
+คุณลอรี่ เกิดปัญหาในการเดิน คุณลอรี่สังเกตเห็น วัน วัน 
+ไม่คึกคักเหมือนเคย และไม่ชอบเดิน ไม่อยากเดินเล่น 
+ลอรี่พาวัน วัน ไปพบสัตวแพทย์ คุณหมอพบว่า 
+วัน วัน มีอาการเจ็บข้อกระดูก ซึ่งนั่นก็เหมือนกับ
+อาการเส้นพลิก ทำให้เดินแล้วเจ็บ....<font style="color:red">More</font></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+        <img class="plus-ico" src="./img/plus-ico.png">
+          <img class="border-0" src="./img/exp2.jpg" alt="Generic placeholder image" width="100%">
+          <h2 class="exp-head">เด็บบี้ และอลาสก้า
+อายุ 14 ปี</h2>
+          <p>เมื่อเดือนมกราคม ปีที่แล้ว วัน วัน สุนัขพุดเดิ้ลของ
+คุณลอรี่ เกิดปัญหาในการเดิน คุณลอรี่สังเกตเห็น วัน วัน 
+ไม่คึกคักเหมือนเคย และไม่ชอบเดิน ไม่อยากเดินเล่น 
+ลอรี่พาวัน วัน ไปพบสัตวแพทย์ คุณหมอพบว่า 
+วัน วัน มีอาการเจ็บข้อกระดูก ซึ่งนั่นก็เหมือนกับ
+อาการเส้นพลิก ทำให้เดินแล้วเจ็บ....<font style="color:red">More</font></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+        <img class="plus-ico" src="./img/plus-ico.png">
+          <img class="border-0" src="./img/exp3.jpg" alt="Generic placeholder image" width="100%">
+          <h2 class="exp-head">เอลเลน และนีโอ อายุ 9 ปี, 
+ทรินิตี้ อายุ 10 ปี</h2>
+          <p>เมื่อเดือนมกราคม ปีที่แล้ว วัน วัน สุนัขพุดเดิ้ลของ
+คุณลอรี่ เกิดปัญหาในการเดิน คุณลอรี่สังเกตเห็น วัน วัน 
+ไม่คึกคักเหมือนเคย และไม่ชอบเดิน ไม่อยากเดินเล่น 
+ลอรี่พาวัน วัน ไปพบสัตวแพทย์ คุณหมอพบว่า 
+วัน วัน มีอาการเจ็บข้อกระดูก ซึ่งนั่นก็เหมือนกับ
+อาการเส้นพลิก ทำให้เดินแล้วเจ็บ....<font style="color:red">More</font></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-12 more-button">
+          <a class="more-button" href="#"><img  src="./img/more-button.png" width="300"></a>
         </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
+      </div><!-- /.row -->
 
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+
+
+      
 
     </div><!-- /.container -->
+    <div class="container-fluid footer">
+        <div class="container">
+        <div class="row ">
+            <div class="col-md-12">
+              <img class="" src="./img/logo-footer.png" alt="Generic placeholder image" width="100">
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4">
+              <p class="normal">Contrary to popular belief, Lorem 
+Ipsum is not simply random text. 
+has roots in a piece of classical 
+Latin literature from 45 BC, making 
+it over 2000 years old.</p>
+<p class="contact">ติิดต่อเรา : 1364 ต่อ 13<br>
+e-mail : chuleekorn.w@dksh.com</p>
+            </div>
+            <div class="col-md-4">
+            <p class="normal">About us : <br>
+A Powerful anti-inflammatory, fast acting, 100% Natural, no pain, 
+no side effects" www.vetzpetz.net</p>
+<p class="normal">Products<br>
+VetzPetz Antinol. “A Powerful, fast acting, 100% Natural, 
+anti-inflamitory with zero side effects"</p>
+            </div>
+            <div class="col-md-4">
+            <ul class="footer-social">
+              <li><a href="#"><img src="./img/social-fb.png" width="20">Vetz Petz Antinol for Dog</a></li>
+              <li><a href="#"><img src="./img/social-fb.png" width="20">Vetz Petz Antinol for Cat</a></li>
+              <li><a href="#"><img src="./img/social-yt.png" width="20">Vetz Petz</a></li>
+              <li><a href="#"><img src="./img/social-tw.png" width="20">@Vetz Petz</a></li>
+            </ul>
+            </div>
+          </div>
+          <hr class="footer-divider">
+        </div>
+      </div>
 
 
     <!-- Bootstrap core JavaScript
