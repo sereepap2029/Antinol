@@ -13,8 +13,8 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./css/carousel.css" rel="stylesheet">
-    <link href="./css/stylesheet.css" rel="stylesheet">
+    <link href="./css/carousel.css?v=<?=date("YmdHis")?>" rel="stylesheet">
+    <link href="./css/stylesheet.css?v=<?=date("YmdHis")?>" rel="stylesheet">
   </head>
   <body>
 
