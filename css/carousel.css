@@ -115,9 +115,11 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
   color: #ED1C24;
+  margin-bottom: 2rem;
 }
 .featurette p.lead{
     font-family: promptregular;
+    font-size: 1rem;
 }
 .featurette-heading .text-in{
   font-family: promptregular;

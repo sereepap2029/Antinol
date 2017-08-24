@@ -40,13 +40,13 @@
               <a class="nav-link" href="#">หน้าแรก</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">เกี่ยวกับเรา</a>
+              <a class="nav-link" href="#about">เกี่ยวกับเรา</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ประโยชน์ของ VetzPetz</a>
+              <a class="nav-link" href="#Benefits">ประโยชน์ของ VetzPetz</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ประสบการณ์จากผู้ใช้</a>
+              <a class="nav-link" href="#exp">ประสบการณ์จากผู้ใช้</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">วิธีการผลิต</a>
@@ -129,7 +129,7 @@ will be distracted by content</p>
 
       <!-- START THE FEATURETTES -->
 
-      <div class="row featurette">
+      <div id="about" class="row featurette">
         <div class="col-md-6">
           <h2 class="featurette-heading">About us : <span class="text-in">เกี่ยวกับเรา</span></h2>
           <p class="lead">กระบวนการผลิตของเรา เริ่มต้นจากการเลี้ยง บ่มเพาะและเก็บเกี่ยว
@@ -158,22 +158,22 @@ will be distracted by content</p>
 
   <div class="container-fluid marketing f2">
     <div class="container marketing">
-      <div class="row featurette">
+      <div id="Benefits" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Benefits of Vetz Petz:<br><span class="text-in">ประโยชน์ของ VetzPetz</span></h2>
           <img class="featurette-image img-fluid mx-auto" src="./img/antinol_index.png" alt="Generic placeholder image">
         </div>
         <div class="col-md-5">
           <ul class="antinol-ul">
-            <li>VetzPetz Antinol คืออะไร</li>
-            <li>ประโยชน์ต่อสุขภาพ</li>
-            <li>ทำไมจึงต้องเลือกใช้ VetzPetz</li>
-            <li>ต้องใช้เวลานานเท่าไหร่จึงจะเริ่ม<br>ความเปลี่ยนแปลง</li>
-            <li>อะไรเป็นสิ่งที่ทำให้ Vetz Petz<br>
+            <li><img src="./img/liststyle.png" width="12">VetzPetz Antinol คืออะไร</li>
+            <li><img src="./img/liststyle.png" width="12">ประโยชน์ต่อสุขภาพ</li>
+            <li><img src="./img/liststyle.png" width="12">ทำไมจึงต้องเลือกใช้ VetzPetz</li>
+            <li><img src="./img/liststyle.png" width="12">ต้องใช้เวลานานเท่าไหร่จึงจะเริ่ม<br>ความเปลี่ยนแปลง</li>
+            <li><img src="./img/liststyle.png" width="12">อะไรเป็นสิ่งที่ทำให้ Vetz Petz<br>
 มีความพิเศษเหนือกว่าผลิตภัณฑ์<br>
 อื่นๆ
 </li>
-            <li>สารอาหารจากอาหารสุนัข<br>
+            <li><img src="./img/liststyle.png" width="12">สารอาหารจากอาหารสุนัข<br>
 ยังมีคุณค่าไม่เพียงพอ<br>
 ต่อสุนัขอีกหรือ
 </li>
@@ -185,7 +185,7 @@ will be distracted by content</p>
 
     <div class="container marketing">
     <!-- Three columns of text below the carousel -->
-      <div class="row experience">
+      <div id="exp" class="row experience">
         <div class="col-lg-12">
           <h2 class="experience-heading">User experience :<br><span class="text-in">ประสบการณ์จากผู้ใช้</span></h2>
         </div>
@@ -226,7 +226,7 @@ will be distracted by content</p>
 อาการเส้นพลิก ทำให้เดินแล้วเจ็บ....<font style="color:red">More</font></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-12 more-button">
-          <a class="more-button" href="#"><img  src="./img/more-button.png" width="300"></a>
+          <a class="more-button" href="#"><img  src="./img/more-button.png" width="150"></a>
         </div>
       </div><!-- /.row -->
 
@@ -277,14 +277,16 @@ anti-inflamitory with zero side effects"</p>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Placed at the end of the document so the pages load faster 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>-->
     <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./assets/js/jquery-3.2.1.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="./assets/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
