@@ -215,6 +215,50 @@ a{
     display: flex;
     margin: 0px auto;
 }
+
+.exp{
+    margin-bottom: 30px;
+}
+.exp-heading{
+        font-family: promptregular;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    color: #636362;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+.exp p{
+    font-family: promptregular;
+    color: #636362;
+    font-size: 15px;
+}
+.exp .exp-vid{
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+}
+.exp .other-exp{
+    margin-bottom: 30px;
+}
+.exp .left-side{
+    padding-right: 5%;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #EAEAEA;
+}
+.exp .right-side{
+    padding-left: 5%;
+}
+.exp p.exp-ps{
+    color: #D2D2D1;
+}
+
+
+
+
+
+
+
 .footer{
     border-top: solid;
     border-width: 5px;
