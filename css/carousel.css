@@ -17,6 +17,12 @@ body {
   border-width: 5px;
   border-color: #ED1C24;
 }
+.carousel.cat {
+  margin-bottom: 4rem;
+  border-bottom: solid;
+  border-width: 5px;
+  border-color: #1A89C9;
+}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -115,6 +121,14 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
   color: #ED1C24;
+  margin-bottom: 2rem;
+}
+.cat .featurette-heading {
+  font-family: promptbold;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  color: #1A89C9;
   margin-bottom: 2rem;
 }
 .featurette p.lead{

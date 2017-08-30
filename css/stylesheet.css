@@ -267,6 +267,14 @@ a{
     padding-top:2rem;
     padding-bottom: 2rem;
 }
+.footer.cat{
+    border-top: solid;
+    border-width: 5px;
+    border-color: #1A89C9;
+    background-color: #AFB2B4;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
 .footer p.normal{
     font-family: promptregular;
     font-size: 0.8rem;

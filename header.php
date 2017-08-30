@@ -29,25 +29,25 @@
         <div class="collapse navbar-collapse" id="navbarsExample07">
           <ul class="dog-cat-ico">
             <li class="nav-item-img">
-              <a href="#"><img src="./img/cat_ico.png"></a>
+              <a href="./index_cat.php"><img src="./img/cat_ico.png"></a>
             </li>
             <li class="nav-item-img">
-              <a href="#"><img src="./img/dog_ico.png"></a>
+              <a href="./index.php"><img src="./img/dog_ico.png"></a>
             </li>
             
           </ul>
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">หน้าแรก</a>
+              <a class="nav-link" href="./index.php">หน้าแรก</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">เกี่ยวกับเรา</a>
+              <a class="nav-link" href="./index.php#about">เกี่ยวกับเรา</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Benefits">ประโยชน์ของ VetzPetz</a>
+              <a class="nav-link" href="./index.php#Benefits">ประโยชน์ของ VetzPetz</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#exp">ประสบการณ์จากผู้ใช้</a>
+              <a class="nav-link" href="./exp.php">ประสบการณ์จากผู้ใช้</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">วิธีการผลิต</a>
@@ -56,7 +56,7 @@
               <a class="nav-link" href="#">กิจกรรมของเรา</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">คำถามที่พบบ่อย</a>
+              <a class="nav-link" href="./questions.php">คำถามที่พบบ่อย</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">หาซื้อได้ที่ไหน</a>
