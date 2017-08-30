@@ -115,6 +115,10 @@ a{
     list-style: none;
     /*list-style-image: url('../img/liststyle.png')*/
 }
+.antinol-ul.questions{
+    list-style: none;
+    margin-bottom:0rem;
+}
 .antinol-ul li{
     padding: 15px 10px 15px 10px;
     font-family: promptregular;
@@ -123,6 +127,18 @@ a{
     position: relative;
 
 }
+.antinol-ul.questions li{
+    padding: 10px 10px 10px 10px;
+    font-family: promptregular;
+    color: #5E5F61;
+    font-size: 1.25rem;
+    position: relative;
+
+}
+.antinol-ul li a{
+    color: #5E5F61;
+}
+
 .antinol-ul li img{
     position: absolute;
     left: -10px;
@@ -132,6 +148,30 @@ a{
     margin-top: 18px;
     margin-bottom: auto;
 
+}
+.antinol-ul.questions li img{
+    margin-top: 15px;
+}
+.questions-heading{
+        font-family: promptbold;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    color: #ED1C24;
+    margin-bottom: 1.5rem;
+}
+.questions-heading .text-in{
+        font-family: promptregular;
+    color: #000;
+}
+.questions-answer{
+    background-color: #F0EFF0;
+    display: none;
+}
+.questions-answer p{
+    padding: 20px 10px;
+   font-family: promptregular;
+    text-align: left;
 }
 .experience {
     margin-top: 5rem;
@@ -229,6 +269,10 @@ a{
 }
 #Benefits{
     padding-bottom: 2rem;
+}
+
+.first-container-margin{
+margin-top: 12rem;
 }
 @media (max-width: 1024px) {
     .navbar-dark .navbar-nav .nav-link{
