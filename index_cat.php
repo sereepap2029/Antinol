@@ -20,24 +20,16 @@ will be distracted by content</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide" src="./img/slide/slide2.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption d-none d-md-block">
-              <img class="head-img" src="./img/slide/head1.png">
-              <p class="slide-p">It is a long established fact that a reader<br>
-will be distracted by content</p>
-              <p><a class="" href="#" role="button"><img src="./img/slide/click.png"></a></p>
-            </div>
-          </div>
+          <img class="second-slide" src="./img/slide/slide3.jpg" alt="Second slide">
         </div>
         <div class="carousel-item">
-          <img class="third-slide" src="./img/slide/slide2.jpg" alt="Third slide">
+          <img class="third-slide" src="./img/slide/slide4.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block text-right">
-              <img class="head-img" src="./img/slide/head1.png">
+              <img class="head-img" src="./img/slide/head2.png">
               <p class="slide-p">It is a long established fact that a reader<br>
 will be distracted by content</p>
-              <p><a class="" href="#" role="button"><img src="./img/slide/click.png"></a></p>
+              <p><a class="" href="#" role="button"><img src="./img/slide/click2.png"></a></p>
             </div>
           </div>
         </div>
