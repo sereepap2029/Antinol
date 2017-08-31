@@ -84,16 +84,16 @@ will be distracted by content</p>
     <div class="container marketing">
       <div id="Benefits" class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Benefits of Vetz Petz Antinol®:<br><span class="text-in">ประโยชน์ของ Vetz Petz Antinol®</span></h2>
+          <h2 class="featurette-heading">Benefits of Vetz Petz Antinol<sup>®</sup>:<br><span class="text-in">ประโยชน์ของ Vetz Petz Antinol<sup>®</sup></span></h2>
           <img class="featurette-image img-fluid mx-auto" src="./img/antinol_index.png" alt="Generic placeholder image">
         </div>
         <div class="col-md-5">
           <ul class="antinol-ul">
-            <li><img src="./img/liststyle_cat.png" width="12">Vetz Petz Antinol® คืออะไร</li>
+            <li><img src="./img/liststyle_cat.png" width="12">Vetz Petz Antinol<sup>®</sup> คืออะไร</li>
             <li><img src="./img/liststyle_cat.png" width="12">ประโยชน์ต่อสุขภาพ</li>
-            <li><img src="./img/liststyle_cat.png" width="12">ทำไมจึงต้องเลือกใช้ Vetz Petz Antinol®</li>
+            <li><img src="./img/liststyle_cat.png" width="12">ทำไมจึงต้องเลือกใช้ Vetz Petz Antinol<sup>®</sup></li>
             <li><img src="./img/liststyle_cat.png" width="12">ต้องใช้เวลานานเท่าไหร่จึงจะเริ่ม<br>ความเปลี่ยนแปลง</li>
-            <li><img src="./img/liststyle_cat.png" width="12">อะไรเป็นสิ่งที่ทำให้ Vetz Petz Antinol®<br>
+            <li><img src="./img/liststyle_cat.png" width="12">อะไรเป็นสิ่งที่ทำให้ Vetz Petz Antinol<sup>®</sup><br>
 มีความพิเศษเหนือกว่าผลิตภัณฑ์<br>
 อื่นๆ
 </li>
