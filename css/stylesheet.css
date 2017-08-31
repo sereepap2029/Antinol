@@ -186,6 +186,7 @@ a{
     font-family: promptregular;
     text-align: left;
     padding: 6% 2% 2% 2%;
+        font-size: 1.5rem;
 }
 .experience-heading {
   font-family: promptbold;
